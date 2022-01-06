@@ -1,0 +1,15 @@
+_merge = "deep"
+
+languageCode = 'fr-fr'
+title = 'Groupement d’Intérêt Public Union Retraite'
+
+[module]
+[[module.imports]]
+path = 'github.com/disic/frago'
+
+[outputs]
+ home    = ["HTML","JSON"]
+
+[params]
+  organisation = "Groupement d’Intérêt Public Union Retraite"
+  robots = "noindex, nofollow"
